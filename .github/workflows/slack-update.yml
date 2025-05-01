@@ -26,5 +26,5 @@ jobs:
         
     - name: Run script
       env:
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        EXP_SLACK_WEBHOOK_URL: ${{ secrets.EXP_SLACK_WEBHOOK_URL }}
       run: python hello.py
