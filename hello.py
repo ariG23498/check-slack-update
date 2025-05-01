@@ -8,7 +8,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 load_dotenv()
-slack_webhook_url = os.getenv("SLACK_WEBHOOK_URL")
+slack_webhook_url = os.getenv("EXP_SLACK_WEBHOOK_URL")
 
 def send_slack_message():
   payload = {"text": f"Hello World, I am Aritra"}
